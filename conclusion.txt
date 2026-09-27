@@ -1,0 +1,22 @@
+CONCLUSION
+
+The identification numbers were stored in a Binary Search
+Tree using lexicographical string comparison.
+
+The inorder traversal produced the identification numbers
+in sorted order:
+
+A102 A120 A25 A45 A7 B100 B12 B3
+
+The comparison showed that BST search can reduce the number
+of comparisons when the tree is suitably structured.
+
+However, the performance of an ordinary BST depends on its
+height and insertion order. A poorly chosen insertion order
+can produce a skewed tree and cause the search complexity to
+become O(n).
+
+For a growing government database, a self-balancing BST such
+as an AVL Tree or Red-Black Tree is suitable because it keeps
+the tree height approximately logarithmic and provides
+efficient search performance.
