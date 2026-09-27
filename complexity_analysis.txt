@@ -1,0 +1,28 @@
+COMPLEXITY ANALYSIS
+
+BST Search:
+Best Case: O(1)
+Average Case: O(log n)
+Worst Case: O(n)
+
+Linear Search:
+Best Case: O(1)
+Average Case: O(n)
+Worst Case: O(n)
+
+BST Insertion:
+Best Case: O(1)
+Average Case: O(log n)
+Worst Case: O(n)
+
+Inorder Traversal:
+Best/Average/Worst Case: O(n)
+
+BST Space Complexity:
+O(n)
+
+Inorder traversal auxiliary space:
+O(h), where h is the height of the tree.
+
+For string keys, the cost of comparing two keys can also
+depend on the key length.
