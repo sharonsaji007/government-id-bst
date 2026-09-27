@@ -1,0 +1,20 @@
+BST SEARCH VS LINEAR SEARCH
+
+Parameter              BST              Linear Search
+-------------------------------------------------------
+Best Case              O(1)             O(1)
+Average Case           O(log n)         O(n)
+Worst Case             O(n)             O(n)
+Insertion Order Effect Yes              No
+Extra Storage          O(n)             O(1)
+Dynamic Data            Suitable         Suitable
+Large Database         Balanced BST     Less efficient
+
+OBSERVED COMPARISONS
+
+ID       BST       Linear
+---------------------------
+A102     1         1
+A120     3         6
+B3       6         7
+A45      4         8
